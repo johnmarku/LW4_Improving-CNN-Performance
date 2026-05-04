@@ -84,7 +84,13 @@ Your validation accuracy jumped dramatically from very low to nearly 100% right 
 **13. Did the improved model focus on more relevant regions? Provide evidence.**
 **ANS:** Yes, based on my Grad-CAM result (OARWEED), the model focuses more on the important parts of the image. The highlighted regions show that it is now paying attention to the object instead of irrelevant background areas.
 
-*(Insert Grad-CAM images here)*
+## Grad-CAM Results
+
+### Heatmap
+![Heatmap](heatmap.png)
+
+### Overlay
+![Overlay](overlay.png)
 
 ---
 
